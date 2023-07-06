@@ -57,5 +57,6 @@ function getElementByXpath(path) {
 
 $(document).ready(function () {
   checkForGeneralAdmission();
+  // todo: modify the session input here
   getEventSession(4);
 });
